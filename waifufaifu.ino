@@ -21,7 +21,7 @@ void loop() {
     if ((WiFi.status() == WL_CONNECTED)) {
         HTTPClient http;
 
-        http.begin("http://192.168.1.54:8090/button");
+        http.begin("http://192.xxx.x.xx:8090/button");
         int httpCode = http.GET();
 
         if (httpCode > 0) {
