@@ -32,5 +32,5 @@ def temp():
        print(request.data + "\n")
        return str(request.data)
 
-@app.route('/power')
+
 app.run(host='0.0.0.0', port=8090)
